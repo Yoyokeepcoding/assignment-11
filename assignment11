@@ -3,6 +3,23 @@ My goal is to catch all the rioter- and all the people disagree- with China poli
 I expect myself working diligently+ to maintain law and order, ensuring the safety and security of the community.
 As a <occ>police officer</occ>, my aim would be to contribute +positively+ to society, fostering trust and promoting a sense of security among residents and visitors alike. 
 
-For example, the tag "+/-" (positive/negative) is unclear and ambiguous. What does it mean to be "positive" or "negative"? Is it based on the annotator's own personal opinion? Or is there a specific set of criteria that should be used to determine the sentiment of a word or phrase?
+Issues: 
+For example, the tag "+/-" (positive/negative) is unclear and ambiguous. 
+What does it mean to be "positive" or "negative"? Is it based on the annotator's own personal opinion? 
+Or is there a specific set of criteria that should be used to determine the sentiment of a word or phrase?
+Without clear and specific tag descriptions, annotators may be more likely to make mistakes or to annotate the data in different ways. 
+This can lead to inconsistent or inaccurate annotations, which can then impact the performance of machine learning models.
 
-Without clear and specific tag descriptions, annotators may be more likely to make mistakes or to annotate the data in different ways. This can lead to inconsistent or inaccurate annotations, which can then impact the performance of machine learning models.
+Suggestions:
+1) Provide examples. 
+For the "+/-" tag, provide one or more examples of how it should be used. This will help annotators to understand the intended meaning of the tag.
+For instance, the usage of "+" is related to positive words such as great, wonderful, optimistic, hopeful, etc.
+2) Define the criteria. 
+For tags that are based on specific criteria, such as the sentiment of a word or phrase, define the criteria that should be used to make the determination. 
+This will help annotators to apply the tag consistently.
+For instance, give the criteria of "+/-" tag:
+Positive words: Words that express positive emotions, such as happy, excited, and grateful.
+Negative words: Words that express negative emotions, such as sad, angry, and disappointed.
+3) Use a controlled vocabulary. 
+Using a predefined list of terms or phrases that can be used to tag the data. 
+This helps to ensure that annotators are using the same terms to describe the same concepts.
